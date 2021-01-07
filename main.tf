@@ -33,5 +33,3 @@ resource "github_team_repository" "some_team_repo" {
   repository = data.github_repository.the_repo.name
   permission = "push"
 }
-'+
-
